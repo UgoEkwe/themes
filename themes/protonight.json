@@ -1,0 +1,98 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "ProtoNight",
+  "include": "../theme-defaults/themes/dark_plus.json",
+  "colors": {
+    "editor.background": "#0A0A0F",
+    "sideBar.background": "#121220",
+    "activityBar.background": "#121220",
+    "statusBar.background": "#1C1F30",
+    "statusBar.noFolderBackground": "#1C1F30",
+    "statusBar.debuggingBackground": "#2E2D49",
+    "editor.foreground": "#F5F5FF",
+    "editorLineNumber.foreground": "#5A5C80",
+    "editorCursor.foreground": "#4C4EFF",
+    "editor.selectionBackground": "#2D2A59",
+    "editor.inactiveSelectionBackground": "#18182C",
+    "editor.lineHighlightBackground": "#1A1A2F33",
+    "editorLineNumber.activeForeground": "#4C4EFF",
+    "editorWhitespace.foreground": "#2D2A59",
+    "editorIndentGuide.background": "#18182C",
+    "editorIndentGuide.activeBackground": "#4C4EFF",
+    "tab.activeBackground": "#18182C",
+    "tab.inactiveBackground": "#121220",
+    "tab.activeForeground": "#F5F5FF",
+    "tab.inactiveForeground": "#5A5C80",
+    "tab.border": "#2D2A59",
+    "button.background": "#4C4EFF",
+    "button.hoverBackground": "#6E6FFF",
+    "button.foreground": "#F5F5FF",
+    "scrollbarSlider.background": "#2D2A5980",
+    "scrollbarSlider.hoverBackground": "#2D2A59CC",
+    "scrollbarSlider.activeBackground": "#4C4EFF80",
+    "panel.background": "#121220",
+    "panel.border": "#2D2A59",
+    "titleBar.activeBackground": "#0A0A0F",
+    "titleBar.activeForeground": "#F5F5FF",
+    "titleBar.inactiveBackground": "#121220",
+    "titleBar.inactiveForeground": "#5A5C80",
+    "terminal.background": "#0A0A0F",
+    "terminal.foreground": "#B1B2C6",
+    "terminal.ansiBlack": "#18182C",
+    "terminal.ansiRed": "#FF5C5C",
+    "terminal.ansiGreen": "#00FFAB",
+    "terminal.ansiYellow": "#FFA500",
+    "terminal.ansiBlue": "#4C4EFF",
+    "terminal.ansiMagenta": "#8257E5",
+    "terminal.ansiCyan": "#00FFAB",
+    "terminal.ansiWhite": "#F5F5FF",
+    "terminal.ansiBrightBlack": "#5A5C80",
+    "terminal.ansiBrightRed": "#FF5C5C",
+    "terminal.ansiBrightGreen": "#00FFAB",
+    "terminal.ansiBrightYellow": "#FFA500",
+    "terminal.ansiBrightBlue": "#4C4EFF",
+    "terminal.ansiBrightMagenta": "#8257E5",
+    "terminal.ansiBrightCyan": "#00FFAB",
+    "terminal.ansiBrightWhite": "#F5F5FF"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#5A5C80",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#8257E5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#4C4EFF"
+      }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": {
+        "foreground": "#00FFAB"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#FFA500"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language.boolean"],
+      "settings": {
+        "foreground": "#FF5C5C"
+      }
+    }
+  ]
+} 

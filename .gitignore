@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+
+# VS Code extension package
+*.vsix
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# VS Code workspace settings (optional)
+.vscode/
+
+# Build output (if you have any build steps)
+out/
+dist/
+node_modules/
+*.vsix
